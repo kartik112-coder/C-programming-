@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    float x1,y1,x2,y2,s,r;
+    scanf("%f%f%f%f", &x1,&y1,&x2,&y2);
+    r=pow((x2-x1),2)+pow((y2-y1),2);
+    s=sqrt(r);
+    printf("%.2f", s);
+    return 0;
+}
