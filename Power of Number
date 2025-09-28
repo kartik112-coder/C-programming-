@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    double a,b,r;
+    scanf("%lf%lf", &a,&b);
+    r=pow(a,b);
+    printf("%.0lf", r);
+    
+    return 0;
+}
