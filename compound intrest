@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    float CI,P,R,T,A,ratedecimal;
+    scanf("%f%f%f", &P,&R,&T);
+    ratedecimal=R/100;
+    A=P*pow((1+ratedecimal),T);
+    CI=A-P;
+    printf("%.2f",CI);
+    return 0;
+}
